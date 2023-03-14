@@ -20,8 +20,8 @@ class _ScoreUpdateScreenState extends State<ScoreUpdateScreen> {
   }
 
   returnMileStoneScore(int score) {
-    if (score <= 83) {
-      return (83 - score);
+    if (score <= 81) {
+      return (81 - score);
     } else {
       return (100 - score);
     }
